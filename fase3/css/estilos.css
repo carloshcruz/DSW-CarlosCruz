@@ -1,0 +1,155 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #FFC300 ;
+    text-align: left;
+    font-size: 230%;
+    padding: 0;
+}
+
+h2 {
+    color: #FFC300 ;
+    text-align: left;
+    padding: 0;
+    background-color: black;
+}
+
+h4 {
+    color: #FFC300 ;
+    text-align: left;
+    padding: 0;
+    background-color: black; 
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    imag
+}
+#menu{
+    background-color:#FFC300;
+    padding: 0 2%;
+}
+
+#menu a {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: #fff;
+    background-color:#FFC300;
+    height: 50px;
+    text-decoration: none;
+    font-size: 120%;
+   }
+
+#menu a:hover{
+    color:#000000;
+    text-decoration: underline;
+}
+
+#menu ul{
+    list-style: none;
+    display: flex;
+}
+
+#menu li{
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+
+#menu li:hover .desplegable>li{
+    top:0;
+    display: block;
+    align-items: center;
+}
+
+.desplegable li{
+    display:none;
+    position: absolute;
+}
+
+.desplegable {
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.desplegable a {
+    background-color:#F39C12  !important;
+
+}
+
+.desplegable a:hover {
+    color: #041122 !important;
+}
+
+.desplegable li:hover{
+    display:block;
+}
+
+#contenido{
+    flex:1;
+    display: flex;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-left: auto;
+    margin-bottom: 1%;
+    background-color:#FEF9E7  ;
+    color: rgb(0, 0, 0);
+    
+}
+section{
+    flex:3;
+    padding: auto;
+    text-align: justify;
+}
+aside{
+    flex:1;
+    background-color:#000000;
+    padding: 10px;
+    
+     
+}
+article{
+    margin:10px;
+    padding:5px;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+} 
+   
+img.izquierda {
+    float: left;
+    margin-right: 3%;
+    
+  }
+  
+img.derecha {
+    float: right;
+    margin-left: 3%;
+  }
+
+article div{
+    flex:1;
+    padding: 15px;
+    margin: 5px;
+    border: 0px solid #F39C12;
+    border-left-width: 6px;
+}
+
+footer{
+    background-color:#FFC300;
+    color:#000000;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+}
