@@ -114,7 +114,7 @@ aside{
     flex:1;
     background-color:#000000;
     padding: 10px;
-    
+        
      
 }
 article{
@@ -126,6 +126,12 @@ article{
     align-items: center;
 } 
    
+#Referencias{
+
+    position: absolute;
+}
+
+
 img.izquierda {
     float: left;
     margin-right: 3%;
@@ -143,6 +149,9 @@ article div{
     margin: 5px;
     border: 0px solid #F39C12;
     border-left-width: 6px;
+}
+#Datos{
+    text-align: center;
 }
 
 footer{
