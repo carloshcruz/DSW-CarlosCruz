@@ -144,7 +144,7 @@ img.derecha {
   }
 
 article div{
-    flex-basis: auto;
+    flex:1;
     padding: 15px;
     margin: 5px;
     border: 0px solid #F39C12;
@@ -160,9 +160,8 @@ footer{
     display: flex;
     flex-direction:row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
-
 
 html,body{height:100%;}
 
@@ -172,12 +171,8 @@ html,body{height:100%;}
 
 @media screen and (max-width:576px){
     header{flex-direction: column;}
-  
-    section{flex-direction: column;}
-    footer{flex-direction: column;justify-content: center;align-items: center;min-height:1px;}
-    #contenido{flex-direction: column;}
-    #menu{flex-direction: column;}
-    #desplegable{flex-direction: column;}
-   
+    #contenido{flex-direction: column;position: relative;}
+    footer{flex-direction: column;justify-content: center;align-items: center;}
+    #iframe{flex-direction: column;}
+    
 }
-
