@@ -173,5 +173,6 @@ html,body{height:100%;}
     header{flex-direction: column;}
     #contenido{flex-direction: column;position: relative;}
     footer{flex-direction: column;justify-content: center;align-items: center;}
+    #iframe{flex-direction: column;}
     
 }
